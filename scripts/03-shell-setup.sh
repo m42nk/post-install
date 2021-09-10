@@ -12,5 +12,5 @@ chsh -s "`which zsh`" "`whoami`"
 ZSH="$HOME/.config/oh-my-zsh" sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)" "" --unattended
 
 # Install starship prompt
-sh -c "$(curl -fsSL https://starship.rs/install.sh)"
+sh -c "$(curl -fsSL https://starship.rs/install.sh)" -- --yes
 
