@@ -1,6 +1,6 @@
 #!/bin/env bash
 
-source ../files/PKGMGR
+source $ROOTDIR/files/PKGMGR
 
 $INSTALL firefox
 $INSTALL alacritty

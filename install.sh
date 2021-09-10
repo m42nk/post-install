@@ -1,5 +1,6 @@
 #!/bin/env bash
 
+export ROOTDIR=`pwd`
 ./scripts/00-get-pkg-mgr.sh
 ./scripts/01-setup.sh
 ./scripts/02-enter-sudo-pw-once-only.sh

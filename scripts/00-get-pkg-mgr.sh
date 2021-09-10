@@ -15,9 +15,9 @@ for f in ${!osInfo[@]}; do
     UPDATE=`echo "$INFO" | awk -F';-;' '{print $2}'`
     UNINSTALL=`echo "$INFO" | awk -F';-;' '{print $3}'`
 
-    echo "export INSTALL=\"$INSTALL\"" > ../files/PKGMGR
-    echo "export UPDATE=\"$UPDATE\"" >> ../files/PKGMGR
-    echo "export UNINSTALL=\"$UNINSTALL\"" >> ../files/PKGMGR
+    echo "export INSTALL=\"$INSTALL\"" > $ROOTDIR/files/PKGMGR
+    echo "export UPDATE=\"$UPDATE\"" >> $ROOTDIR/files/PKGMGR
+    echo "export UNINSTALL=\"$UNINSTALL\"" >> $ROOTDIR/files/PKGMGR
 
     echo Package manager: ${PKGMGR}
     echo "Done"

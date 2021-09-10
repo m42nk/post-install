@@ -1,6 +1,6 @@
 #!/bin/env bash
 
-source ../files/PKGMGR
+source $ROOTDIR/files/PKGMGR
 
 [ ! `command -v vim` ] && $INSTALL vim
 
