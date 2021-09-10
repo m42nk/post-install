@@ -1,0 +1,3 @@
+export INSTALL="sudo pacman --noconfirm -S"
+export UPDATE="sudo pacman -Syyu --noconfirm"
+export UNINSTALL="sudo pacman -Rcns"
