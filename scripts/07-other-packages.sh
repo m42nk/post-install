@@ -20,6 +20,7 @@ $INSTALL maim
 $INSTALL taskell
 $INSTALL tealdeer
 $INSTALL rofi
+$INSTALL lazygit
 
 # YAY
 # flashfocus
