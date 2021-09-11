@@ -2,6 +2,8 @@
 
 source $ROOTDIR/files/PKGMGR
 
+$INSTALL xbacklight
+$INSTALL fzf
 $INSTALL firefox
 $INSTALL alacritty
 $INSTALL qutebrowser
